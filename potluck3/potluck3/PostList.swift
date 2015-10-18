@@ -7,12 +7,18 @@
 //
 
 import Foundation
+import SwiftyJSON
 
 class PostList {
     
-    var list: Array<Post> = [Post]()
-//    var myRootRef = Firebase(url:"https://sizzling-inferno-2998.firebaseio.com/")
-    init() {
-        
+    var list: JSON
+    
+    init(json: JSON) {
+        list = json
+    }
+    
+    func get(title: String, datem: String) -> (String) {
+        let data = list[title][datem].string
+        return data!
     }
 }

@@ -14,6 +14,13 @@ class ViewController: UIViewController {
 
     var ref = Firebase(url: "https://sizzling-inferno-2998.firebaseio.com/")
     @IBOutlet weak var osn: UILabel!
+    @IBOutlet weak var Op: UILabel!
+    @IBOutlet weak var Date: UILabel!
+    @IBOutlet weak var Time: UILabel!
+    @IBOutlet weak var location: UILabel!
+    @IBOutlet weak var details: UILabel!
+    @IBOutlet weak var max: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

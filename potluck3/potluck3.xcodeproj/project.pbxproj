@@ -110,8 +110,8 @@
 				443516B41BD4060200A0049F /* potluck3Tests */,
 				443516BF1BD4060200A0049F /* potluck3UITests */,
 				4435169B1BD4060200A0049F /* Products */,
-				7AE37405C2C5060459451C1C /* Pods */,
 				28C8DD2F5CE186F376A41379 /* Frameworks */,
+				7AE37405C2C5060459451C1C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
