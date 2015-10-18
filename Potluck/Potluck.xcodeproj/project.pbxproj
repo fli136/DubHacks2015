@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00598A7A3B72FE2819F4E010 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 231A1AA9015D0ED56CADEDC4 /* libPods.a */; };
 		44166B4C1BD360DD0096CF4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44166B4B1BD360DD0096CF4E /* AppDelegate.swift */; };
 		44166B4F1BD360DD0096CF4E /* Potluck.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44166B4D1BD360DD0096CF4E /* Potluck.xcdatamodeld */; };
 		44166B511BD360DD0096CF4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44166B501BD360DD0096CF4E /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 		44166B6F1BD361350096CF4E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44166B6E1BD361350096CF4E /* User.swift */; };
 		44166B711BD3615D0096CF4E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44166B701BD3615D0096CF4E /* Post.swift */; };
 		44E8E4921BD365B300CCEA5C /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E8E4911BD365B300CCEA5C /* Comment.swift */; };
+		44E8E4941BD36FD900CCEA5C /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E8E4931BD36FD900CCEA5C /* PostList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		231A1AA9015D0ED56CADEDC4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		44166B461BD360DD0096CF4E /* Potluck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Potluck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44166B4A1BD360DD0096CF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44166B4B1BD360DD0096CF4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +47,10 @@
 		44166B6E1BD361350096CF4E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		44166B701BD3615D0096CF4E /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		44E8E4911BD365B300CCEA5C /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		44E8E4931BD36FD900CCEA5C /* PostList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
+		44FF55081BD38C1C00996F5B /* Potluck-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Potluck-Bridging-Header.h"; sourceTree = "<group>"; };
+		825A1091B7FA0D0A9AA97482 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C60C35B9F356D4A95BB700C7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00598A7A3B72FE2819F4E010 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,12 +72,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C36500B1A0636125BD3634B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C60C35B9F356D4A95BB700C7 /* Pods.debug.xcconfig */,
+				825A1091B7FA0D0A9AA97482 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		44166B3D1BD360DD0096CF4E = {
 			isa = PBXGroup;
 			children = (
 				44166B481BD360DD0096CF4E /* Potluck */,
 				44166B611BD360DD0096CF4E /* PotluckTests */,
 				44166B471BD360DD0096CF4E /* Products */,
+				0C36500B1A0636125BD3634B /* Pods */,
+				5084C32D9600AFDDE0001BBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,8 +112,10 @@
 				44166B4D1BD360DD0096CF4E /* Potluck.xcdatamodeld */,
 				44166B491BD360DD0096CF4E /* Supporting Files */,
 				44166B6E1BD361350096CF4E /* User.swift */,
+				44E8E4931BD36FD900CCEA5C /* PostList.swift */,
 				44166B701BD3615D0096CF4E /* Post.swift */,
 				44E8E4911BD365B300CCEA5C /* Comment.swift */,
+				44FF55081BD38C1C00996F5B /* Potluck-Bridging-Header.h */,
 			);
 			path = Potluck;
 			sourceTree = "<group>";
@@ -124,6 +145,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5084C32D9600AFDDE0001BBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				231A1AA9015D0ED56CADEDC4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44166B681BD360DD0096CF4E /* Build configuration list for PBXNativeTarget "Potluck" */;
 			buildPhases = (
+				A64A32E7CA6B917D1406D437 /* Check Pods Manifest.lock */,
 				44166B421BD360DD0096CF4E /* Sources */,
 				44166B431BD360DD0096CF4E /* Frameworks */,
 				44166B441BD360DD0096CF4E /* Resources */,
+				814ECF22D5AF2E89CBC22D8E /* Embed Pods Frameworks */,
+				EB036CFAEA22A894ED343006 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,6 +251,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		814ECF22D5AF2E89CBC22D8E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A64A32E7CA6B917D1406D437 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB036CFAEA22A894ED343006 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44166B421BD360DD0096CF4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -230,6 +310,7 @@
 				44166B4F1BD360DD0096CF4E /* Potluck.xcdatamodeld in Sources */,
 				44166B4C1BD360DD0096CF4E /* AppDelegate.swift in Sources */,
 				44166B711BD3615D0096CF4E /* Post.swift in Sources */,
+				44E8E4941BD36FD900CCEA5C /* PostList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,21 +431,28 @@
 		};
 		44166B691BD360DD0096CF4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C60C35B9F356D4A95BB700C7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Potluck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Potluck/Potluck-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		44166B6A1BD360DD0096CF4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 825A1091B7FA0D0A9AA97482 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Potluck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Potluck/Potluck-Bridging-Header.h";
 			};
 			name = Release;
 		};

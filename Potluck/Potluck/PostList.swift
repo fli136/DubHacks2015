@@ -11,7 +11,7 @@ import Foundation
 class PostList {
     
     var list: Array<Post> = [Post]()
-    
+//    var myRootRef = Firebase(url:"https://sizzling-inferno-2998.firebaseio.com/")
     init() {
         
     }
