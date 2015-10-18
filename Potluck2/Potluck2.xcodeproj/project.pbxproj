@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		446D80C51BD404F000B6B06E /* Potluck2.h in Headers */ = {isa = PBXBuildFile; fileRef = 446D80C41BD404F000B6B06E /* Potluck2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		446D80CC1BD404F000B6B06E /* Potluck2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446D80C11BD404F000B6B06E /* Potluck2.framework */; settings = {ASSET_TAGS = (); }; };
+		446D80D11BD404F000B6B06E /* Potluck2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446D80D01BD404F000B6B06E /* Potluck2Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		446D80CD1BD404F000B6B06E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 446D80B81BD404F000B6B06E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 446D80C01BD404F000B6B06E;
+			remoteInfo = Potluck2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		446D80C11BD404F000B6B06E /* Potluck2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Potluck2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		446D80C41BD404F000B6B06E /* Potluck2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Potluck2.h; sourceTree = "<group>"; };
+		446D80C61BD404F000B6B06E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		446D80CB1BD404F000B6B06E /* Potluck2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Potluck2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		446D80D01BD404F000B6B06E /* Potluck2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Potluck2Tests.swift; sourceTree = "<group>"; };
+		446D80D21BD404F000B6B06E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		446D80BD1BD404F000B6B06E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446D80C81BD404F000B6B06E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446D80CC1BD404F000B6B06E /* Potluck2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		446D80B71BD404F000B6B06E = {
+			isa = PBXGroup;
+			children = (
+				446D80C31BD404F000B6B06E /* Potluck2 */,
+				446D80CF1BD404F000B6B06E /* Potluck2Tests */,
+				446D80C21BD404F000B6B06E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		446D80C21BD404F000B6B06E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				446D80C11BD404F000B6B06E /* Potluck2.framework */,
+				446D80CB1BD404F000B6B06E /* Potluck2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		446D80C31BD404F000B6B06E /* Potluck2 */ = {
+			isa = PBXGroup;
+			children = (
+				446D80C41BD404F000B6B06E /* Potluck2.h */,
+				446D80C61BD404F000B6B06E /* Info.plist */,
+			);
+			path = Potluck2;
+			sourceTree = "<group>";
+		};
+		446D80CF1BD404F000B6B06E /* Potluck2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				446D80D01BD404F000B6B06E /* Potluck2Tests.swift */,
+				446D80D21BD404F000B6B06E /* Info.plist */,
+			);
+			path = Potluck2Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		446D80BE1BD404F000B6B06E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446D80C51BD404F000B6B06E /* Potluck2.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		446D80C01BD404F000B6B06E /* Potluck2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 446D80D51BD404F000B6B06E /* Build configuration list for PBXNativeTarget "Potluck2" */;
+			buildPhases = (
+				446D80BC1BD404F000B6B06E /* Sources */,
+				446D80BD1BD404F000B6B06E /* Frameworks */,
+				446D80BE1BD404F000B6B06E /* Headers */,
+				446D80BF1BD404F000B6B06E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Potluck2;
+			productName = Potluck2;
+			productReference = 446D80C11BD404F000B6B06E /* Potluck2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		446D80CA1BD404F000B6B06E /* Potluck2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 446D80D81BD404F000B6B06E /* Build configuration list for PBXNativeTarget "Potluck2Tests" */;
+			buildPhases = (
+				446D80C71BD404F000B6B06E /* Sources */,
+				446D80C81BD404F000B6B06E /* Frameworks */,
+				446D80C91BD404F000B6B06E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				446D80CE1BD404F000B6B06E /* PBXTargetDependency */,
+			);
+			name = Potluck2Tests;
+			productName = Potluck2Tests;
+			productReference = 446D80CB1BD404F000B6B06E /* Potluck2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		446D80B81BD404F000B6B06E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Fei Yao Li";
+				TargetAttributes = {
+					446D80C01BD404F000B6B06E = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					446D80CA1BD404F000B6B06E = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 446D80BB1BD404F000B6B06E /* Build configuration list for PBXProject "Potluck2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 446D80B71BD404F000B6B06E;
+			productRefGroup = 446D80C21BD404F000B6B06E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				446D80C01BD404F000B6B06E /* Potluck2 */,
+				446D80CA1BD404F000B6B06E /* Potluck2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		446D80BF1BD404F000B6B06E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446D80C91BD404F000B6B06E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		446D80BC1BD404F000B6B06E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446D80C71BD404F000B6B06E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446D80D11BD404F000B6B06E /* Potluck2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		446D80CE1BD404F000B6B06E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 446D80C01BD404F000B6B06E /* Potluck2 */;
+			targetProxy = 446D80CD1BD404F000B6B06E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		446D80D31BD404F000B6B06E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		446D80D41BD404F000B6B06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		446D80D61BD404F000B6B06E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Potluck2/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = food.Potluck2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		446D80D71BD404F000B6B06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Potluck2/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = food.Potluck2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		446D80D91BD404F000B6B06E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Potluck2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = food.Potluck2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		446D80DA1BD404F000B6B06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Potluck2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = food.Potluck2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		446D80BB1BD404F000B6B06E /* Build configuration list for PBXProject "Potluck2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446D80D31BD404F000B6B06E /* Debug */,
+				446D80D41BD404F000B6B06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		446D80D51BD404F000B6B06E /* Build configuration list for PBXNativeTarget "Potluck2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446D80D61BD404F000B6B06E /* Debug */,
+				446D80D71BD404F000B6B06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		446D80D81BD404F000B6B06E /* Build configuration list for PBXNativeTarget "Potluck2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446D80D91BD404F000B6B06E /* Debug */,
+				446D80DA1BD404F000B6B06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 446D80B81BD404F000B6B06E /* Project object */;
+}
