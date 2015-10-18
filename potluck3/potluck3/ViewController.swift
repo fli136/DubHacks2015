@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import SwiftyJSON
 
 class ViewController: UIViewController {
 
@@ -19,10 +20,16 @@ class ViewController: UIViewController {
         let uu = "https://sizzling-inferno-2998.firebaseio.com/potluck/data/posts"
         let ref2 = Firebase(url: uu)
         //func post(ref: Firebase, title: String, location: String, date: String, time: Int, max: Int, details: String)
-        let ser = User(name: "hi", email: "k")
-        ser.post(ref2, title: "st", location: "this", date: "stuff", time: 2, max: 3, details: "mk")
-        let ref3 = Firebase(url: uu + "/st/comments")
-        ser.comment(ref3, text: "feed me")
+        //ser.post(ref2, title: "st", location: "this", date: "stuff", time: 2, max: 3, details: "mk")
+        ref2.observeEventType(.Value, withBlock: { snapshot in
+            print(snapshot.value)
+            let json = JSON(snapshot.value)
+            print(json)
+            }, withCancelBlock: { error in
+                print(error.description)
+        })
+
+
         
     }
     
